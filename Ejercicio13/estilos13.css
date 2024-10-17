@@ -1,0 +1,62 @@
+footer{
+    text-align: center;
+    color: white;
+    background-color: #333; 
+    padding: 5px;
+    width: 98.5%;
+    height: 15%;
+}
+
+h3{
+    color: #f7c600;
+}
+
+.imagen {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 110px;
+}
+
+.imagen-footer {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+legend{
+    font-weight: bold;
+    color: darkblue;
+}
+
+fieldset{
+    background-color: #f4f1ed;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border-radius: 7px;
+    width: 400px;
+    margin-bottom: 5%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+
+select{
+    margin-bottom: 10px;
+}
+
+body{
+    margin: 0%;
+}

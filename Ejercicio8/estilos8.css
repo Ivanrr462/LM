@@ -1,0 +1,27 @@
+.encabezado {
+    color: white;
+    background-color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 1px solid ;
+    border-color: grey;
+    padding: 8px;
+    text-align: center;
+}
+
+.recomendadotd {
+    border: 2px solid;
+    border-color: green;
+    background-color: lightgrey;
+}
+
+.recomendadoth {
+    border: 2px solid;
+    border-color: white;
+}

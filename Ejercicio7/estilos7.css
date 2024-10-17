@@ -1,0 +1,28 @@
+img {
+    height: 65%;
+}
+
+.tarjeta {
+    border: solid 1px;
+    border-color: grey;
+    border-radius: 10px;
+    width: 55%;
+    height: 80%;
+    background-color: bisque;
+    box-shadow: 0 0 5px bisque;
+}
+
+.nombre{
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+    color: grey;
+}
+
+.precio {
+    text-align: center;
+    color: red;
+    font-size: 0.6cm;
+}

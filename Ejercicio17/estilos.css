@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6; 
+    background-color: #f9f9f9; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+header {
+    background-color: green; 
+    color: #ffffff; 
+    padding: 1.5rem; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.logo {
+    margin-right: 20px; 
+    height: 90px; 
+}
+
+
+main {
+    flex: 1;
+    padding: 0 2rem 2rem; 
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: green; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.tarjeta {
+    border: 1px solid grey; 
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px grey;
+    padding: 10px; 
+    text-align: center; 
+    width: 67%;
+    height: 100%;
+}
+
+.nombre {
+    text-align: center;
+}
+
+.desc {
+    color: grey;
+}
+
+.precio {
+    color: red;
+    font-size: 1.2em; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.nombre-tienda {
+    margin: 0; 
+}

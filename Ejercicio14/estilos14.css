@@ -1,0 +1,21 @@
+.imagen {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+}
+
+.borde {
+    border: solid 2px;
+    border-color: black;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
