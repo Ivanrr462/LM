@@ -3,10 +3,11 @@
         <meta charset="UTF-8">
         <meta name="author" content="Nombre">
         <title>Incidencias de clase</title>
-        <link rel="stylesheet" href="estilos13.css">
+        <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
-        <img src="../ejercicio2/IAT-LOGOTIPO.jpg" alt="logo del centro" class="imagen">
+        <main>
+        <img src="imagenes/IAT-LOGOTIPO.jpg" alt="logo del centro" class="imagen">
         <fieldset><legend>Nueva incidencia</legend>
         <form action="procesarincidencia.php" method="post">
             
@@ -20,20 +21,21 @@
             <label>Aula*: </label><input type="text" class="texto" placeholder="Indica el aula de la incidencia" required><br>
             <label>Día de la incidencia*: </label><input type="week" class="texto" required><br>
             <label>Hora de la incidencia*: </label><input type="time" class="texto" required><br>
-            <label>Descripción de la incidencia*: </label><textarea required></textarea><br>
+            <p><label>Descripción de la incidencia*: <textarea required></textarea></label></p><br>
             <label>Imagen de la incidencia (opcional): </label><br><input type="file" class="texto"><br>
             <div class="botones"><input type="submit" value="Enviar incidencia">
                 <input type="reset" value="Borrar formulario">
             </div>
         </form>
     </fieldset>
+        </main>
         <footer>
             <h3>Síguenos</h3>
-            <a href="https://www.facebook.com/EducaAnd"><img src="../ejercicio2/icons8-facebook-48.png" alt="facebook" class="imagen-footer"></a>
-            <a href="https://x.com/educaand"><img src="../ejercicio2/icons8-twitter-48.png" alt="twitter" class="imagen-footer"></a>
-            <a href="https://www.instagram.com/educaand/"><img src="../ejercicio2/icons8-instagram-48.png" alt="instagram" class="imagen-footer"></a>
-            <a href="https://www.youtube.com/channel/UCq8I8XprHmCs8R_Jj3hSYdA"><img src="../ejercicio2/icons8-youtube-48.png" alt="youtube" class="imagen-footer"></a>
-            <a href="https://fpalanturing.es/"><img src="../ejercicio2/icons8-website-48.png" alt="pagina web" class="imagen-footer"></a>
+            <a href="https://www.facebook.com/EducaAnd"><img src="imagenes/icons8-facebook-48.png" alt="facebook" class="imagen-footer"></a>
+            <a href="https://x.com/educaand"><img src="imagenes/icons8-twitter-48.png" alt="twitter" class="imagen-footer"></a>
+            <a href="https://www.instagram.com/educaand/"><img src="imagenes/icons8-instagram-48.png" alt="instagram" class="imagen-footer"></a>
+            <a href="https://www.youtube.com/channel/UCq8I8XprHmCs8R_Jj3hSYdA"><img src="imagenes/icons8-youtube-48.png" alt="youtube" class="imagen-footer"></a>
+            <a href="https://fpalanturing.es/"><img src="imagenes/icons8-website-48.png" alt="pagina web" class="imagen-footer"></a>
         </footer>
     </body>
 </html>

@@ -1,10 +1,9 @@
 footer{
     text-align: center;
     color: white;
-    background-color: #333; 
-    padding: 5px;
-    width: 98.5%;
-    height: 15%;
+    background-color: #333;  
+    padding: 1rem 0;
+    font-size: 0.9rem;
 }
 
 h3{
@@ -37,6 +36,7 @@ fieldset{
     border-radius: 7px;
     width: 400px;
     margin-bottom: 5%;
+    margin: 5px;
 }
 
 .botones{
@@ -49,8 +49,8 @@ input{
     color: #333;
 }
 
-textarea{
-    margin-bottom: 10px;
+p{
+    margin-bottom: 1px;
 }
 
 select{
@@ -58,5 +58,15 @@ select{
 }
 
 body{
-    margin: 0%;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+main {
+    flex: 1;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
