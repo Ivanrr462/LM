@@ -11,24 +11,25 @@
         <fieldset><legend>Nueva incidencia</legend>
         <form action="procesarincidencia.php" method="post">
             
-            <label>Profesor*: </label><input type="text" class="texto" placeholder="Escribe tu nombre aqui" required><br>
-            <label>Correo Electrónico*: </label><input type="email" class="texto" placeholder="Escribe tu correo aqui" required><br>
+            <label>Profesor*: </label><input type="text" class="texto" name="profesor" placeholder="Escribe tu nombre aqui" required><br>
+            <label>Correo Electrónico*: </label><input type="email" name="email" class="texto" placeholder="Escribe tu correo aqui" required><br>
             <label>Departamento*: </label>
             <select name="departamento" id="departamento">
                 <option value="1"></option>
                 <option value="2">Informática</option>
             </select><br>
-            <label>Aula*: </label><input type="text" class="texto" placeholder="Indica el aula de la incidencia" required><br>
-            <label>Día de la incidencia*: </label><input type="week" class="texto" required><br>
-            <label>Hora de la incidencia*: </label><input type="time" class="texto" required><br>
-            <p><label>Descripción de la incidencia*: <textarea required></textarea></label></p><br>
-            <label>Imagen de la incidencia (opcional): </label><br><input type="file" class="texto"><br>
-            <div class="botones"><input type="submit" value="Enviar incidencia">
+            <label>Aula*: </label><input type="text" name="aula" class="texto" placeholder="Indica el aula de la incidencia" required><br>
+            <label>Día de la incidencia*: </label><input type="week" name="dia" class="texto" required><br>
+            <label>Hora de la incidencia*: </label><input type="time" name="hora" class="texto" required><br>
+            <p><label>Descripción de la incidencia*: <textarea name="descripción" required></textarea></label></p><br>
+            <label>Imagen de la incidencia (opcional): </label><br><input type="file" name="imagen" class="texto"><br>
+            <div class="botones">
+                <input type="submit" value="Enviar incidencia">
                 <input type="reset" value="Borrar formulario">
             </div>
         </form>
     </fieldset>
-        </main>
+        </main> 
         <footer>
             <h3>Síguenos</h3>
             <a href="https://www.facebook.com/EducaAnd"><img src="imagenes/icons8-facebook-48.png" alt="facebook" class="imagen-footer"></a>
