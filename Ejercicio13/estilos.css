@@ -18,6 +18,14 @@ h3{
     height: 110px;
 }
 
+p {
+    padding: 5px;
+}
+
+textarea {
+    width: 45%;
+}
+
 .imagen-footer {
     width: 48px;
     height: 48px;

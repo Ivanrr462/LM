@@ -1,0 +1,76 @@
+header{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: #F5A623;
+    font-size: 200%;
+    padding: 1rem 0; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: beige;
+    padding: 0;
+}
+
+.imagen {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+footer{
+    color: white;
+    background-color: #333; 
+    text-align: center; 
+    padding: 15px; 
+    font-size: 0.9rem;
+}
+
+.receta {
+    background-color: white;
+    color: #333;
+    border-radius: 10px;
+    width: 800px;
+    padding: 10px;
+    align-self: center;
+    max-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.receta h1, h2 {
+    color: #F5A623;
+    margin-bottom: 10px;
+}
+
+* {
+    margin: 0;
+}
+
+li {
+    list-style: square;
+}
+
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.elaboracion p {
+    align-items: center;
+    margin-bottom: 10px;
+}

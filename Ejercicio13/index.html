@@ -11,18 +11,18 @@
         <fieldset><legend>Nueva incidencia</legend>
         <form action="procesarincidencia.php" method="post">
             
-            <label>Profesor*: </label><input type="text" class="texto" name="profesor" placeholder="Escribe tu nombre aqui" required><br>
-            <label>Correo Electrónico*: </label><input type="email" name="email" class="texto" placeholder="Escribe tu correo aqui" required><br>
-            <label>Departamento*: </label>
+            <p><label>Profesor*: </label><input type="text" class="texto" name="profesor" placeholder="Escribe tu nombre aqui" required></p>
+            <p><label>Correo Electrónico*: </label><input type="email" name="email" class="texto" placeholder="Escribe tu correo aqui" required></p>
+            <p><label>Departamento*: </label>
             <select name="departamento" id="departamento">
                 <option value="1"></option>
                 <option value="2">Informática</option>
-            </select><br>
-            <label>Aula*: </label><input type="text" name="aula" class="texto" placeholder="Indica el aula de la incidencia" required><br>
-            <label>Día de la incidencia*: </label><input type="week" name="dia" class="texto" required><br>
-            <label>Hora de la incidencia*: </label><input type="time" name="hora" class="texto" required><br>
-            <p><label>Descripción de la incidencia*: <textarea name="descripción" required></textarea></label></p><br>
-            <label>Imagen de la incidencia (opcional): </label><br><input type="file" name="imagen" class="texto"><br>
+            </select></p>
+            <p><label>Aula*: </label><input type="text" name="aula" class="texto" placeholder="Indica el aula de la incidencia" required></p>
+            <p><label>Día de la incidencia*: </label><input type="week" name="dia" class="texto" required></p>
+            <p><label>Hora de la incidencia*: </label><input type="time" name="hora" class="texto" required></p>
+            <p><label>Descripción de la incidencia*: </label><textarea name="descripción" required></textarea></p>
+            <p><label>Imagen de la incidencia (opcional): </label><br><input type="file" name="imagen" class="texto"></p>
             <div class="botones">
                 <input type="submit" value="Enviar incidencia">
                 <input type="reset" value="Borrar formulario">
