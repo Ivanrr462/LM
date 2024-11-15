@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ivan Rios Raya">
+        <title>Mapas embebidos con iframe</title>
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Mapas embedidos con iframe</h1>
+            <nav class="menu-navegacion">
+                <ul>
+                    <li><a href="https://www.openstreetmap.org/export/embed.html?bbox=-74.259090,40.477399,-73.700171,40.917577">Nueva York</a></li>
+                    <li><a href="https://www.openstreetmap.org/export/embed.html?bbox=-118.671875,33.703707,-118.154297,34.337306">Los Ángeles</a></li>
+                    <li><a href="https://www.openstreetmap.org/export/embed.html?bbox=-0.510375,51.286760,-0.334015,51.691874">Londres</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="contenedor-mapas">
+                <div class="map-card">
+                    <div>
+                    <h2>Nueva York</h2>
+                    <img src="imagenes/nueva_york.png" alt="Nueva York">
+                    </div>
+                    <iframe class="mapa" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.259090,40.477399,-73.700171,40.917577" frameborder="0"></iframe>
+                    <p class="descripcion">Nueva York es la ciudad más poblada de Estados Unidos, famosa por su Estatua
+                        de la Libertad y Times Square.</p>
+                </div>
+                <div class="map-card">
+                    <div>
+                    <h2>Los Ángeles</h2>
+                    <img src="imagenes/los_angeles.png" alt="Los Ángeles">
+                    </div>
+                    <iframe class="mapa" src="https://www.openstreetmap.org/export/embed.html?bbox=-118.671875,33.703707,-118.154297,34.337306" frameborder="0"></iframe>
+                    <p class="descripcion">Los Ángeles es conocida por ser el centro de la industria cinematográfica de los
+                        Estados Unidos, hogar de Hollywood.</p>
+                </div>
+                <div class="map-card">
+                    <div>
+                    <h2>Londres</h2>
+                    <img src="imagenes/londres.png" alt="Londres">
+                    </div>
+                    <iframe class="mapa" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.510375,51.286760,-0.334015,51.691874" frameborder="0"></iframe>
+                    <p class="descripcion">Londres, capital de Reino Unido, es famosa por lugares icónicos como el Big Ben
+                        y el Palacio de Buckingham.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 - Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>

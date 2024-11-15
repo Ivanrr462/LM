@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-image: #F4F4F4; 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+main {
+    flex: 1;
+    padding: 0 2rem 2rem 2rem;
+}
+
+header {
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.tarjeta {
+    border: solid 2px;
+    border-color: #CCC;
+    border-radius: 10px;
+    max-width: 300px;
+    background-color: #F9F9F9;
+    box-shadow:  2px 2px 5px  rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.contenedor-tarjetas-productos {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.descripcionproducto{
+    text-align: center;
+    color: #777;
+}
+
+.precio {
+    text-align: center;
+    color: #E74C3C;
+}
+
+.cabecera-imagen  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera-imagen img {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.tarjeta img {
+    max-width: 75%;
+}
+
+.grid-container-4x4 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+}

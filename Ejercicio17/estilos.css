@@ -5,92 +5,81 @@
 
 body {
     font-family: 'Arial', sans-serif; 
-    line-height: 1.6; 
-    background-color: #f9f9f9; 
+    background-image: #F4F4F4; 
     display: flex; 
     flex-direction: column; 
     min-height: 100vh; 
 }
 
-header {
-    background-color: green; 
-    color: #ffffff; 
-    padding: 1.5rem; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
-
-.header-text {
-    display: flex;
-    flex-direction: column; 
-    text-align: center; 
-}
-
-.logo {
-    margin-right: 20px; 
-    height: 90px; 
-}
-
-
 main {
     flex: 1;
-    padding: 0 2rem 2rem; 
+    padding: 0 2rem 2rem 2rem;
 }
 
-section {
-    padding: 20px;
-}
-
-section h2 {
+header {
+    background-color: #4CAF50; 
+    color: white;
     text-align: center;
+    padding: 1.5rem 0;
 }
 
 footer {
-    background-color: green; 
-    color: #ffffff; 
-    text-align: center; 
-    padding: 1rem 0;
     font-size: 0.9rem;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 20px; 
-    padding: 20px; 
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 .tarjeta {
-    border: 1px solid grey; 
+    border: solid 2px;
+    border-color: #CCC;
     border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 0 5px grey;
-    padding: 10px; 
-    text-align: center; 
-    width: 67%;
-    height: 100%;
+    max-width: 300px;
+    background-color: #F9F9F9;
+    box-shadow:  2px 2px 5px  rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.nombre {
+.contenedor-tarjetas-productos {
     text-align: center;
+    padding: 10px;
 }
 
-.desc {
-    color: grey;
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.descripcionproducto{
+    text-align: center;
+    color: #777;
 }
 
 .precio {
-    color: red;
-    font-size: 1.2em; 
+    text-align: center;
+    color: #E74C3C;
 }
 
-img {
-    max-width: 100%; 
-    height: auto; 
+.cabecera-imagen  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.cabecera-imagen img {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
 
-.nombre-tienda {
-    margin: 0; 
+.tarjeta img {
+    max-width: 75%;
+}
+
+.grid-container-4x4 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
 }
