@@ -30,6 +30,7 @@
                 <li><img src="imagenes/thumbs-up.svg" alt="Videos-Gustar"><a href="#">Vídeos que me gustan</a></li>
             </ul>
         </nav>
+        <div class="contenedor">
         <section class="videos">
             <div class="video-card">
                 <h2>Reproducción de vídeo local</h2>
@@ -42,7 +43,8 @@
             <div class="video-card">
                 <h2>Reproducción de vídeo en Streaming</h2>
                 <video controls autoplay muted>
-                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" type="video/mp4">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+                        type="video/mp4">
                     Tu navegador no soporta el formato de vídeo.
                 </video>
                 <p>Vídeo en Streaming que se reproduce automáticamente</p>
@@ -52,6 +54,8 @@
                 <iframe src="https://www.youtube.com/embed/Q123YDN4tKE" frameborder="0" allowfullscreen></iframe>
                 <p>El podcast de Mariano en Aquí no hay quien viva</p>
             </div>
+        </section>
+        <section class="audios">
             <div class="audio-card">
                 <h2>Reproducción de audio local</h2>
                 <audio controls>
@@ -62,7 +66,7 @@
             </div>
             <div class="audio-card">
                 <h2>Reproducción de audio en Streaming</h2>
-                <audio controls>
+                <audio controls autoplay>
                     <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
                     Tu navegador no soporta el formato de audio.
                 </audio>
@@ -79,6 +83,7 @@
                 <p>Radio Paradise</p>
             </div>
         </section>
+    </div>
     </main>
     <footer>
         <p>&copy; 2024 - Todos los derechos reservados</p>
