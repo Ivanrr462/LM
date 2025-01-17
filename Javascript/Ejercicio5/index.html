@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script>
+        let numero = 1;
+        document.write("<p id='numero'>Bucle While</p>");
+        while (numero < 11){
+            document.write("<p id='numero'>" + numero + "</p>");
+            numero++;
+        }  
+        
+        let numeros = 1;
+        document.write("<p id='numeros'>Bucle DoWhile</p>");
+        do {
+            document.write("<p id='numeros'>" + numeros + "</p>");
+            numeros++;
+        } while (numeros < 11)
+
+        document.write("<p id='num'>Bucle For</p>");
+        for (num = 1; num < 11; num ++){
+            document.write("<p id='num'>" + num + "</p>");
+        } 
+    </script>
+</body>
+</html>

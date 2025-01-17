@@ -1,0 +1,23 @@
+p{
+    font-size: 15px;
+}
+
+#suma {
+    color: red;
+}
+
+#resta {
+    color: green;
+}
+
+#producto {
+    color: yellow;
+}
+
+#division {
+    color: blueviolet;
+}
+
+#resto {
+    color: brown;
+}
