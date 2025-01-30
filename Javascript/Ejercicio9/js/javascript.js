@@ -12,9 +12,9 @@ function compararNumeros() {
         return;
     }
 
-    numero1 = parseFloat(numero1);
-    numero2 = parseFloat(numero2);
-    numero3 = parseFloat(numero3);
+    numero1 = parseInt(numero1);
+    numero2 = parseInt(numero2);
+    numero3 = parseInt(numero3);
 
     if (numero1 > numero2 && numero1 > numero2){
         mayor = numero1;
